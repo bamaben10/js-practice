@@ -67,26 +67,26 @@
 
 // As an additional challenge, print out The values are identical. if x and y have the same value.
 
-let x = 1;
-let y = 2;
+// let x = 1;
+// let y = 2;
 
-// Write your code below this line.
+// // Write your code below this line.
 
-if (x > y) {
-  console.log(x);
-} else {
-  console.log(y);
-}
+// if (x > y) {
+//   console.log(x);
+// } else {
+//   console.log(y);
+// }
 
-// Solution to additional challenge:
+// // Solution to additional challenge:
 
-if (x > y) {
-  console.log(x);
-} else if (y > x) {
-  console.log(y);
-} else {
-  console.log("The values are identical");
-}
+// if (x > y) {
+//   console.log(x);
+// } else if (y > x) {
+//   console.log(y);
+// } else {
+//   console.log("The values are identical");
+// }
 
 // if (x > y) {
 //   console.log(x)
@@ -95,3 +95,14 @@ if (x > y) {
 // } else [
 //   console.log('The values are identical.')
 // ]
+
+let x = 5;
+let y = 2;
+
+if (x > y) {
+  console.log(x);
+} else if (y > x) {
+  console.log(y);
+} else {
+  console.log("The values are identical");
+}
